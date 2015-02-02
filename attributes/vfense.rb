@@ -1,0 +1,7 @@
+default["vfense"]["base_dir"] = "/opt"
+default["vfense"]["home_dir"] = "#{default["vfense"]["base_dir"]}/vFense"
+default["vfense"]["repository"]["url"] = "https://github.com/vFense/vFense.git"
+default["vfense"]["repository"]["branch"] = "pre-0.8.1-dev"
+default["vfense"]["system"]["user"] = "vfense"
+default["vfense"]["system"]["group"] = "vfense"
+default["vfense"]["app"]["global_admin"]["password"] = "vFense#123"
