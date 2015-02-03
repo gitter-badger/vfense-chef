@@ -1,3 +1,7 @@
+default["vfense"]["apscheduler"]["repository"]["url"] = "https://linuxdynasty@bitbucket.org/linuxdynasty/apscheduler.git"
+default["vfense"]["apscheduler"]["repository"]["branch"] = "vfense"
+default["vfense"]["apscheduler"]["tmp_dir"] = "/tmp/apscheduler"
+
 default["vfense"]["dependencies"]["ubuntu"] = [
   "python-setuptools",
   "python-pip",
